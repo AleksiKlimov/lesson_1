@@ -1,0 +1,181 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.test1 {
+	overflow: scroll;
+	line-height: 25px;
+	color: #000000;
+	margin: 53px 619px 33px 50px;
+	width: 611px;
+	max-height: 20px;
+	padding: 0px;
+}
+.test2 {
+	overflow: auto;
+
+	line-height: 25px;
+	color: #000000;
+	display: block;
+	min-width: 274px;
+	min-height: 20px;
+	margin: 0px 0px 0px 49px;
+}
+.test3 {
+	overflow: auto;
+	display: inline-block;
+	color: #000000;
+	min-width: 453px;
+	height: 14px;
+	margin: 0px 0px 0px 48px;
+}
+.test4 {
+	overflow: auto;
+
+	display: inline-block;
+	color: #000000;
+	width: 1145px;
+	height: 86px;
+	margin: 32px 0px 0px 51px;
+}
+.test5 {
+	overflow: auto;
+	display: inline-block;
+	width: 241px;
+	height: 14px;
+	color: #000000;
+	margin: 34px 41px 0px 51px;
+}
+
+.test6 {
+	display: inline-block;
+	margin: 34px 0px 35px 0px;
+	width: 221px;
+	height: 14px;
+	color: #000000;
+}
+.test7 {
+	display: inline-block;
+	width: 503px;
+	height: 14px;
+	color: #000000;
+	border: 1px solid black;
+	text-align: center;
+	margin: 35px 42px 37px 50px;
+}
+.test8 {
+	color: #000000;
+	width: 480px;
+	height: 14px;
+	text-align: center;
+	border: 1px solid black;
+	white-space: nowrap;
+	margin: 35px 205px 37px 0px;
+}
+.test9 {
+	overflow: scroll;
+
+	display: block;
+	width: 343px;
+	white-space: nowrap;
+
+	height: 111px;
+	color: #000000;
+	border: 1px dashed black;
+	line-height: 100px;
+	margin: 0px 0px 0px 50px;
+}
+.img1 {
+	display: inline;
+	max-width: 40%;
+	min-width: 4%;
+}
+.img2 {
+	display: inline;
+	max-width: 20%;
+	min-width: 4%;
+}
+.img3 {
+	display: inline;
+	max-width: 40%;
+	min-width: 4%;
+}
